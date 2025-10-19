@@ -1,0 +1,21 @@
+{
+  "header": "atoms/header/benjamin_basset.json",
+  "title": "atoms/titles/finance.json",
+  "summary": "atoms/summaries/default.json",
+  "education": [
+    "atoms/education/germaine_tillion.json",
+    "atoms/education/paul_sabatier.json",
+    "atoms/education/enseirb.json"
+  ],
+  "experience": [
+    "atoms/experience/credit_mutuel.json",
+    "atoms/experience/credit_agricole.json",
+    "atoms/experience/act_justly.json"
+  ],
+  "skills": [
+    "atoms/skills/computer_science.json",
+    "atoms/skills/languages.json",
+    "atoms/skills/mathematics.json",
+    "atoms/skills/soft_skills.json"
+  ]
+}

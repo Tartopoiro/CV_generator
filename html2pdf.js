@@ -5,40 +5,39 @@ async function htmlToPdfMax(htmlPath, pdfPath) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
-    // Charger le HTML
     const htmlContent = fs.readFileSync(htmlPath, 'utf8');
     await page.setContent(htmlContent, { waitUntil: 'networkidle0' });
 
-    // Mesurer le contenu
+    // Taille du contenu en pixels
     const dimensions = await page.evaluate(() => {
         const body = document.body;
         const html = document.documentElement;
-        const width = Math.max(body.scrollWidth, html.scrollWidth);
-        const height = Math.max(body.scrollHeight, html.scrollHeight);
-        return { width, height };
+        return {
+            width: Math.max(body.scrollWidth, html.scrollWidth),
+            height: Math.max(body.scrollHeight, html.scrollHeight)
+        };
     });
 
-    // Taille A4 en pixels à 96 DPI
-    const A4_WIDTH = 595;   // points
-    const A4_HEIGHT = 842;  // points
+    // Taille A4 en points -> pixels (1pt = 1/72 inch, 96dpi)
+    const A4_WIDTH_PT = 595; // points
+    const A4_HEIGHT_PT = 842; // points
+    const DPI = 96;
+    const A4_WIDTH_PX = (A4_WIDTH_PT / 72) * DPI;
+    const A4_HEIGHT_PX = (A4_HEIGHT_PT / 72) * DPI;
 
-    // Calcul du scale pour maximiser la page
-    const scale = Math.min(A4_WIDTH / dimensions.width, A4_HEIGHT / dimensions.height);
+    // Calcul du scale pour maximiser l'occupation
+    const scale = Math.min(A4_WIDTH_PX / dimensions.width, A4_HEIGHT_PX / dimensions.height);
 
-    // Générer le PDF
     await page.pdf({
         path: pdfPath,
+        format: 'A4',
         printBackground: true,
-        width: `${dimensions.width}px`,
-        height: `${dimensions.height}px`,
         scale: scale,
         margin: { top: 0, bottom: 0, left: 0, right: 0 },
     });
 
     await browser.close();
-    console.log(`PDF généré et maximisé : ${pdfPath}`);
+    console.log(`PDF maximisé : ${pdfPath}`);
 }
 
-
-// Exemple d'utilisation
-htmlToPdfMax('cv_data.html', 'cv_data.pdf');
+htmlToPdfMax('cv_config.html', 'cv.pdf');

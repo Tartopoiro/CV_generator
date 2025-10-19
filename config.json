@@ -1,12 +1,10 @@
 {
   "name": "Benjamin Basset",
-  "title": "Computer Science Student seeking Data Science & AI Internship",
   "location": "Bordeaux, France",
   "phone": "(+33) 7 69 91 99 97",
   "email": "bbasset.benjamin@gmail.com",
-  
+  "title": "Data Scientist junior seeking challenging opportunities",
   "summary": "Started studies in 2021 after three years working in a bank. Graduated with distinction from two bachelor's degrees: one in Finance and Management, and the other in Applied Mathematics and Computer Science. Currently studying Computer Science at Bordeaux Institute of Technology. Looking for a 3-month internship to contribute to projects on data science and analysis, information systems, and AI-driven decision support.",
-  
   "education": [
     {
       "institution": "Bordeaux Institute of Technology (ENSEIRB-MATMECA)",
@@ -31,7 +29,6 @@
       "skills": "Finance, management, information system, law, accounting"
     }
   ],
-  
   "experience": [
     {
       "title": "Research Analyst",
@@ -87,21 +84,20 @@
       ]
     }
   ],
-  
   "skills": {
     "Computer Science": {
       "Database": "SQL, Postgres, Oracle PL/SQL",
       "Software Eng.": "Java SE/EE, JS, C, UML",
       "Data": "VBA, Python"
     },
-    "Languages": {
-      "English": "TOEIC certified 2023 (820)",
-      "French": "Native speaker"
-    },
     "Mathematics": [
       "Statistics and probability",
       "Graph theory"
     ],
+    "Languages": {
+      "English": "TOEIC certified 2023 (820)",
+      "French": "Native speaker"
+    },
     "Soft skills": [
       "Analytically minded and critical thinker",
       "Communicative, attentive and empathetic",
