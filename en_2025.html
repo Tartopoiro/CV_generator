@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Basset - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.4;
+            color: #000;
+            background-color: #fff;
+            padding: 40px 60px;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            font-size: 11px;
+            margin-top: 5px;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Summary */
+        .summary {
+            font-size: 11px;
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        /* Experience & Education Items */
+        .item {
+            margin-bottom: 15px;
+            font-size: 11px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3px;
+        }
+
+        .item-left {
+            flex: 1;
+        }
+
+        .item-title {
+            font-weight: bold;
+            font-size: 11px;
+        }
+
+        .item-company {
+            font-style: italic;
+        }
+
+        .item-right {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .item-location {
+            font-style: italic;
+        }
+
+        .item-description {
+            margin-top: 3px;
+            line-height: 1.4;
+        }
+
+        .item-description ul {
+            margin-left: 18px;
+            margin-top: 2px;
+        }
+
+        .item-description li {
+            margin-bottom: 2px;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 11px;
+        }
+
+        .skill-category {
+            margin-bottom: 8px;
+        }
+
+        .skill-category strong {
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        /* Print Optimization */
+        @media print {
+            body {
+                padding: 20px;
+                font-size: 10pt;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .item-header {
+                flex-direction: column;
+            }
+
+            .item-right {
+                text-align: left;
+                margin-top: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>Benjamin Basset</h1>
+        <div class="contact-info">
+            Bordeaux, France • (+33) 7 69 91 99 97 • bbasset.benjamin@gmail.com
+        </div>
+    </header>
+
+    <!-- Summary -->
+    <section class="section">
+        <h2 class="section-title">Summary</h2>
+        <p class="summary">
+            Started studies in 2021 after three years working in a bank. Graduated with distinction from two bachelor's degrees: one in Finance and Management, and the other in Applied Mathematics and Computer Science. Currently studying Computer Science at Bordeaux Institute of Technology. Looking for a 3-month internship to contribute to projects on data science and analysis, information systems, and AI-driven decision support.
+        </p>
+    </section>
+
+    <!-- Education -->
+    <section class="section">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="item">
+            <div class="item-header">
+                <div class="item-left">
+                    <div class="item-title">Bordeaux Institute of Technology (ENSEIRB-MATMECA), Bordeaux, France</div>
+                </div>
+                <div class="item-right">
+                    <div>Until 2027</div>
+                </div>
+            </div>
+            <div class="item-description">
+                <div><em>5-year degree in Computer Science</em></div>
+                <div>Skills: Information system, statistics, software development, system architecture</div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <div class="item-left">
+                    <div class="item-title">University Paul Sabatier, Toulouse, France</div>
+                </div>
+                <div class="item-right">
+                    <div>2024</div>
+                </div>
+            </div>
+            <div class="item-description">
+                <div><em>Bachelor degree in applied mathematics and computer science</em></div>
+                <div>Option: Computer science applied to management</div>
+                <div>Skills: Information system, statistics, software development</div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <div class="item-left">
+                    <div class="item-title">Germaine Tillion Institute, Montbéliard, France</div>
+                </div>
+                <div class="item-right">
+                    <div>2023</div>
+                </div>
+            </div>
+            <div class="item-description">
+                <div><em>Bachelor degree in finance and management</em></div>
+                <div>Skills: Finance, management, information system, law, accounting</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="section">
+        <h2 class="section-title">Work Experience</h2>
+        
+        <div class="item">
+            <div class="item-header">
+                <div class="item-left">
+                    <div class="item-title">Research Analyst, Act Justly - Internship, 3 months</div>
+                </div>
+                <div class="item-right">
+                    <div class="item-location">Brussels, Belgium</div>
+                    <div>2025</div>
+                </div>
+            </div>
+            <div class="item-description">
+                <ul>
+                    <li>Collected and preprocessed datasets for analysis</li>
+                    <li>Data storage and information system management</li>
+                    <li>Practiced skills: Statistics, SQL, Python, Critical thinking, Planification</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <div class="item-left">
+                    <div class="item-title">Modelization of formal classic logic, CNRS - Internship, 4 months</div>
+                </div>
+                <div class="item-right">
+                    <div class="item-location">Toulouse, France</div>
+                    <div>2024</div>
+                </div>
+            </div>
+            <div class="item-description">
+                <ul>
+                    <li>Developed application dedicated to student for learning logic</li>
+                    <li>Learned formal logic method</li>
+                    <li>Practiced skills: Statistics, Software development, Critical thinking, Planification</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <div class="item-left">
+                    <div class="item-title">Accounting controller, Crédit Agricole - temporary contract, 3 months</div>
+                </div>
+                <div class="item-right">
+                    <div class="item-location">Vesoul, France</div>
+                    <div>2021</div>
+                </div>
+            </div>
+            <div class="item-description">
+                <ul>
+                    <li>Created a VBA based tool for finding double payment</li>
+                    <li>Created a new process and somes automatizations for risky invoices controls</li>
+                    <li>Practiced skills: Data engineering, VBA, communication, project management, finance</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <div class="item-left">
+                    <div class="item-title">Bank advisor, Crédit Mutuel - permanent contract, 30 months</div>
+                </div>
+                <div class="item-right">
+                    <div class="item-location">Baumes les dames, France</div>
+                    <div>2019-21</div>
+                </div>
+            </div>
+            <div class="item-description">
+                <ul>
+                    <li>Mastery of security, ethics and deontology rules</li>
+                    <li>In charge of euros/gold/currency funds</li>
+                    <li>Sales of banking product (177% of the goals fixed in 2020)</li>
+                    <li>Practiced skills: negociation, communication, project management, autonomy</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div>
+                <div class="skill-category">
+                    <strong>Computer Science</strong>
+                    Database: SQL, Postgres, Oracle PL/SQL<br>
+                    Software Eng.: Java SE/EE, JS, C, UML<br>
+                    Data: VBA, Python
+                </div>
+                <div class="skill-category">
+                    <strong>Languages</strong>
+                    English: TOEIC certified 2023 (820)<br>
+                    French: Native speaker
+                </div>
+            </div>
+            <div>
+                <div class="skill-category">
+                    <strong>Mathematics</strong>
+                    Statistics and probability<br>
+                    Graph theory
+                </div>
+                <div class="skill-category">
+                    <strong>Soft skills</strong>
+                    Analytically minded and critical thinker<br>
+                    Communicative, attentive and empathetic<br>
+                    Autonomous and proactive
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,111 @@
+{
+  "name": "Benjamin Basset",
+  "title": "Computer Science Student seeking Data Science & AI Internship",
+  "location": "Bordeaux, France",
+  "phone": "(+33) 7 69 91 99 97",
+  "email": "bbasset.benjamin@gmail.com",
+  
+  "summary": "Started studies in 2021 after three years working in a bank. Graduated with distinction from two bachelor's degrees: one in Finance and Management, and the other in Applied Mathematics and Computer Science. Currently studying Computer Science at Bordeaux Institute of Technology. Looking for a 3-month internship to contribute to projects on data science and analysis, information systems, and AI-driven decision support.",
+  
+  "education": [
+    {
+      "institution": "Bordeaux Institute of Technology (ENSEIRB-MATMECA)",
+      "location": "Bordeaux, France",
+      "period": "Until 2027",
+      "degree": "5-year degree in Computer Science",
+      "skills": "Information system, statistics, software development, system architecture"
+    },
+    {
+      "institution": "University Paul Sabatier",
+      "location": "Toulouse, France",
+      "period": "2024",
+      "degree": "Bachelor degree in applied mathematics and computer science",
+      "option": "Option: Computer science applied to management",
+      "skills": "Information system, statistics, software development"
+    },
+    {
+      "institution": "Germaine Tillion Institute",
+      "location": "Montbéliard, France",
+      "period": "2023",
+      "degree": "Bachelor degree in finance and management",
+      "skills": "Finance, management, information system, law, accounting"
+    }
+  ],
+  
+  "experience": [
+    {
+      "title": "Research Analyst",
+      "company": "Act Justly",
+      "contract_type": "Internship",
+      "duration": "3 months",
+      "location": "Brussels, Belgium",
+      "period": "2025",
+      "achievements": [
+        "Collected and preprocessed datasets for analysis",
+        "Data storage and information system management",
+        "Practiced skills: Statistics, SQL, Python, Critical thinking, Planification"
+      ]
+    },
+    {
+      "title": "Modelization of formal classic logic",
+      "company": "CNRS",
+      "contract_type": "Internship",
+      "duration": "4 months",
+      "location": "Toulouse, France",
+      "period": "2024",
+      "achievements": [
+        "Developed application dedicated to student for learning logic",
+        "Learned formal logic method",
+        "Practiced skills: Statistics, Software development, Critical thinking, Planification"
+      ]
+    },
+    {
+      "title": "Accounting controller",
+      "company": "Crédit Agricole",
+      "contract_type": "temporary contract",
+      "duration": "3 months",
+      "location": "Vesoul, France",
+      "period": "2021",
+      "achievements": [
+        "Created a VBA based tool for finding double payment",
+        "Created a new process and somes automatizations for risky invoices controls",
+        "Practiced skills: Data engineering, VBA, communication, project management, finance"
+      ]
+    },
+    {
+      "title": "Bank advisor",
+      "company": "Crédit Mutuel",
+      "contract_type": "permanent contract",
+      "duration": "30 months",
+      "location": "Baumes les dames, France",
+      "period": "2019-21",
+      "achievements": [
+        "Mastery of security, ethics and deontology rules",
+        "In charge of euros/gold/currency funds",
+        "Sales of banking product (177% of the goals fixed in 2020)",
+        "Practiced skills: negociation, communication, project management, autonomy"
+      ]
+    }
+  ],
+  
+  "skills": {
+    "Computer Science": {
+      "Database": "SQL, Postgres, Oracle PL/SQL",
+      "Software Eng.": "Java SE/EE, JS, C, UML",
+      "Data": "VBA, Python"
+    },
+    "Languages": {
+      "English": "TOEIC certified 2023 (820)",
+      "French": "Native speaker"
+    },
+    "Mathematics": [
+      "Statistics and probability",
+      "Graph theory"
+    ],
+    "Soft skills": [
+      "Analytically minded and critical thinker",
+      "Communicative, attentive and empathetic",
+      "Autonomous and proactive"
+    ]
+  }
+}

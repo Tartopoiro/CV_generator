@@ -1,0 +1,20 @@
+{
+  "name": "cv-compiler",
+  "version": "1.0.0",
+  "description": "Compile CV HTML from JSON data files",
+  "main": "compiler.js",
+  "scripts": {
+    "compile": "node compiler.js",
+    "test": "node compiler.js benjamin_basset.json"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "compiler",
+    "html",
+    "json"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
