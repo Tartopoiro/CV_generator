@@ -455,6 +455,11 @@ function main() {
         // Écrire le fichier
         fs.writeFileSync(outputFile, html, 'utf8');
 
+        if (fs.existsSync(config.inputFile)) {
+            fs.unlinkSync(config.inputFile);
+            console.log(`✓ Fichier de configuration supprimé : ${config.inputFile}`);
+        }
+
         console.log(`✓ CV généré avec succès : ${outputFile}`);
     } catch (error) {
         console.error(`Erreur : ${error.message}`);

@@ -114,8 +114,23 @@
   ]
 }
 ```
+## Worflow (standard)
 
-## Workflow
+### 1. Créer les éléments atomiques
+Créez vos fichiers JSON dans le dossier `atoms/`
+
+### 2. Créer une configuration de build
+```bash
+# Créer builds/finance.json avec les chemins des éléments voulus
+```
+
+### 3. Utiliser
+```bash
+node cv_generator.js builds/build.json -o monCV
+# Génère: monCV.pdf dans le dossier CV_pdf
+```
+
+## Workflow (avancée)
 
 ### 1. Créer les éléments atomiques
 Créez vos fichiers JSON dans le dossier `atoms/`
@@ -127,18 +142,18 @@ Créez vos fichiers JSON dans le dossier `atoms/`
 
 ### 3. Builder le config
 ```bash
-node builder.js builds/finance.json
+node src/builder.js builds/finance.json -o config
 # Génère: config.json
 ```
 
 ### 4. Compiler le CV
 ```bash
-node compiler.js config.json -o finance
-# Génère: cv_finance.html
+node src/compiler.js config.json -o finance
+# Génère: cv_finance.html et supprime le json d'entrée
 ```
 
-### Ou en une seule fois avec un nom personnalisé:
+### 5. Transformer le html en pdf 
 ```bash
-node builder.js builds/finance.json -o config_finance
-node compiler.js config_finance.json -o finance_2025
+node src/html2pdf cv_config.html -o monCV
+#Génere: monCV.pdf dans le dossier CV_pdf et supprime le html
 ```
