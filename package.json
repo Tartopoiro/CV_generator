@@ -16,5 +16,8 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^5.1.0",
+    "puppeteer": "^24.25.0"
+  }
 }
