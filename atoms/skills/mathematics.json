@@ -1,4 +1,4 @@
 {
   "skill_title": "Mathematics",
-  "skill_details": "Statistics and probability\nGraph theory"
+  "skill_details": ["Statistics and probability","Graph theory"]
 }
