@@ -1,0 +1,146 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.4;
+        color: #000;
+        background-color: #fff;
+        padding: 40px 60px;
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .header h2 {
+        font-size: 18px;
+        font-weight: normal;
+        margin: 8px 0;
+        font-style: italic;
+    }
+
+    .contact-info {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .section-title {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        border-bottom: 1px solid #000;
+        padding-bottom: 2px;
+        letter-spacing: 0.5px;
+    }
+
+    .summary {
+        font-size: 13px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+
+    .item {
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+
+    .item-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3px;
+    }
+
+    .item-left {
+        flex: 1;
+    }
+
+    .item-title {
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .item-right {
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    .item-description {
+        margin-top: 3px;
+        line-height: 1.4;
+    }
+
+    .item-description ul {
+        margin-left: 18px;
+        margin-top: 2px;
+    }
+
+    .item-description li {
+        margin-bottom: 2px;
+    }
+
+    .skills-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        font-size: 13px;
+    }
+
+    .skill-category {
+        margin-bottom: 8px;
+    }
+
+    .skill-category strong {
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    @media print {
+        body {
+            padding: 20px;
+            font-size: 13pt;
+        }
+        
+        .section {
+            page-break-inside: avoid;
+        }
+    }
+
+    @media (max-width: 768px) {
+        body {
+            padding: 20px;
+        }
+
+        .skills-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .item-header {
+            flex-direction: column;
+        }
+
+        .item-right {
+            text-align: left;
+            margin-top: 2px;
+        }
+    }

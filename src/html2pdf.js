@@ -12,7 +12,7 @@ if (args.length < 1) {
 }
 
 const htmlPath = args[0];
-let pdfName = 'CV_pdf.pdf'; // nom par défaut possibilité de le changer
+let pdfName = 'CV_pdf.pdf'; 
 const projectRoot = path.resolve(__dirname, '..');
 const outputDir = path.join(projectRoot, 'CV_pdf');
 

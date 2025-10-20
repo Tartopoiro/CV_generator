@@ -18,5 +18,9 @@
     "atoms/skills/mathematics.json",
     "atoms/skills/languages.json",
     "atoms/skills/soft_skills.json"
+  ],
+  "personnal_achievements": [
+    "atoms/personnal_achievement/cv_generator.json",
+    "atoms/personnal_achievement/eirbia.json"
   ]
 }

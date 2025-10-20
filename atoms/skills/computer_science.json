@@ -1,7 +1,4 @@
 {
-  "Computer Science": {
-    "Database": "SQL, Postgres, Oracle PL/SQL",
-    "Software Eng.": "Java SE/EE, JS, C, UML",
-    "Data": "VBA, Python"
-  }
+    "skill_title": "Computer Science",
+    "skill_details": "Database : SQL, Postgres, Oracle PL/SQL\nSoftware Eng.: Java SE/EE, JS, C, UML\nData: VBA, Python"
 }
