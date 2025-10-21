@@ -1,0 +1,27 @@
+{
+    "header": "atoms/header/FR-benjamin_basset.json",
+    "title": "atoms/titles/FR-DGA-RNAV2.json",
+    "summary": "atoms/summaries/FR-DGA.json",
+    "education": [
+        "atoms/education/FR-enseirb.json",
+        "atoms/education/FR-paul_sabatier.json",
+        "atoms/education/FR-germaine_tillion.json"
+    ],
+    "experience": [
+        "atoms/experience/FR-cnrs.json",
+        "atoms/experience/FR-credit_agricole.json",
+        "atoms/experience/FR-act_justly.json",
+        "atoms/experience/FR-credit_mutuel.json"
+    ],
+    "skills": [
+        "atoms/skills/FR-mathematics.json",
+        "atoms/skills/FR-languages.json",
+        "atoms/skills/FR-computer_science.json",
+        "atoms/skills/FR-soft_skills.json"
+    ],
+    "personnal_achievements": [
+        "atoms/personnal_achievement/FR-eirbia.json",
+        "atoms/personnal_achievement/FR-AccountX.json",
+        "atoms/personnal_achievement/FR-servicecivique.json"
+    ]
+}

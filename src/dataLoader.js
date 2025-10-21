@@ -121,11 +121,12 @@ class CvData {
     }
 }
 
-
 async function loadJson(filePath) {
     const fullPath = path.resolve(filePath);
-    const data = await fs.readFile(fullPath, 'utf-8');
-    return JSON.parse(data);
+    console.log(`Loading JSON file: ${fullPath}`);
+    const raw = await fs.readFile(fullPath, 'utf-8');
+    const clean = raw.replace(/^\uFEFF/, ''); // Disable BOM if present, useful for Windows-generated files or sometimes LLMs
+    return JSON.parse(clean);
 }
 
 async function loadCvData(configPath) {

@@ -7,7 +7,7 @@ const projectRoot = path.resolve(__dirname, '..');
 const templatesDir = path.join(projectRoot, 'style_and_templates');
 const outputDir = path.join(projectRoot, 'CV_html');
 
-const TEMPLATE_MAIN = path.join(templatesDir, 'main_template.html');
+const TEMPLATE_MAIN = path.join(templatesDir, 'FR-main_template.html');
 const TEMPLATE_EDUCATION = path.join(templatesDir, 'education_item.html');
 const TEMPLATE_EXPERIENCE = path.join(templatesDir, 'experience_item.html');
 const TEMPLATE_ACHIEVEMENT = path.join(templatesDir, 'achievement_item.html');

@@ -1,14 +1,15 @@
-﻿{
-    "contract_type":  "permanent contract",
-    "achievements":  [
-                         "Mastery of security, ethics and deontology rules",
-                         "In charge of euros/gold/currency funds",
-                         "Sales of banking product (177% of the goals fixed in 2020)",
-                         "Practiced skills: negociation, communication, project management, autonomy"
-                     ],
-    "period":  "2019-21",
-    "company":  "Crédit Mutuel",
-    "location":  "Baumes les dames, France",
-    "title":  "Bank advisor",
-    "duration":  "30 months"
+﻿
+{
+    "contract_type": "CDI",
+    "achievements": [
+        "Maîtrise des règles de sécurité, d'éthique et de déontologie",
+        "Responsable des fonds en euros/or/devises",
+        "Vente de produits bancaires (177 % des objectifs fixés en 2020)",
+        "Compétences pratiquées : négociation, communication, gestion de projet, autonomie"
+    ],
+    "period": "2019-2021",
+    "company": "Crédit Mutuel",
+    "location": "Baume-les-Dames, France",
+    "title": "Conseiller bancaire",
+    "duration": "30 mois"
 }

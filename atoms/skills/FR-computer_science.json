@@ -1,8 +1,9 @@
 ﻿{
-    "skill_title":  "Computer Science",
+    "skill_title":  "Informatique, data et SI",
     "skill_details":  [
-                          "Database : SQL, Postgres, Oracle PL/SQL",
-                          "Software Eng.: Java SE/EE, JS, C, UML",
-                          "Data: VBA, Python"
+                        "Developpement : Python, HTML/CSS, JS, C, Java SE/EE",
+                        "Base de données : MySQL, Postgres, Oracle",
+                        "Traitement des données : Pandas, NumPy, VBA",
+                        "Outils : Git, Docker, UML, Agile/Scrum, Linux/Windows"
                       ]
 }

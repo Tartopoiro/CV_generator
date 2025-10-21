@@ -1,8 +1,8 @@
 ﻿{
-    "skill_title":  "Soft skills",
-    "skill_details":  [
-                          "Analytically minded and critical thinker",
-                          "Communicative, attentive and empathetic",
-                          "Autonomous and proactive"
-                      ]
+    "skill_title": "Savoir-être",
+    "skill_details": [
+        "Esprit analytique et sens critique",
+        "Communicatif, attentif et empathique",
+        "Autonome et proactif"
+    ]
 }

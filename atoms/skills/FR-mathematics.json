@@ -1,7 +1,8 @@
 ﻿{
-    "skill_title":  "Mathematics",
+    "skill_title":  "Mathématiques",
     "skill_details":  [
-                          "Statistics and probability",
-                          "Graph theory"
+                          "Statistiques : descriptive, inférentielles",
+                          "Apprentissage automatique : régression, classification, clustering",
+                          "Mathématiques discrètes : logique, graphes, combinatoire"
                       ]
 }

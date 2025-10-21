@@ -1,8 +1,8 @@
 ﻿{
-    "skills":  "Information system, statistics, software development",
-    "institution":  "University Paul Sabatier",
-    "degree":  "Bachelor degree in applied mathematics and computer science",
-    "period":  "2024",
-    "location":  "Toulouse, France",
-    "option":  "Option: Computer science applied to management"
+    "period": "2024",
+    "skills": "Systèmes d'information, statistiques, développement logiciel",
+    "institution": "Université Paul Sabatier",
+    "degree": "Licence en mathématiques et informatique appliquées (Niveau Bac+3)",
+    "location": "Toulouse, France",
+    "option": "Informatique appliquée à la gestion (MIAGE)"
 }

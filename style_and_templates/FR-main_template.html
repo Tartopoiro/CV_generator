@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        {{styles}}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>{{header.name}}</h1>
+        <h2>{{title.title}}</h2>
+        <div class="contact-info">
+            {{header.location}} • {{header.phone}} • {{header.email}}{{header.linkedin}}{{header.github}}
+        </div>
+    </header>
+
+    <section class="section">
+        <h2 class="section-title">A propos de moi</h2>
+        <p class="summary">
+            {{summary.summary}}
+        </p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Compétences</h2>
+        <div class="skills-grid">
+            {{skills_items}}
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Expérience</h2>
+        {{experience_items}}
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Diplôme</h2>
+        {{education_items}}
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Mes réussites personnelles</h2>
+        {{personnal_achievements}}
+    </section>
+
+</body>
+</html>
