@@ -1,0 +1,13 @@
+﻿{
+    "contract_type":  "temporary contract",
+    "achievements":  [
+                         "Created a VBA based tool for finding double payment",
+                         "Created a new process and somes automatizations for risky invoices controls",
+                         "Practiced skills: Data engineering, VBA, communication, project management, finance"
+                     ],
+    "period":  "2021",
+    "company":  "Crédit Agricole",
+    "location":  "Vesoul, France",
+    "title":  "Accounting controller",
+    "duration":  "3 months"
+}

@@ -1,0 +1,13 @@
+﻿{
+    "contract_type":  "Internship",
+    "achievements":  [
+                         "Developed application dedicated to student for learning logic",
+                         "Learned formal logic method",
+                         "Practiced skills: Statistics, Software development, Critical thinking, Planification"
+                     ],
+    "period":  "2024",
+    "company":  "CNRS",
+    "location":  "Toulouse, France",
+    "title":  "Modelization of formal classic logic",
+    "duration":  "4 months"
+}
